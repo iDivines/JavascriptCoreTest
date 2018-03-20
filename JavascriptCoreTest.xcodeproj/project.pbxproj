@@ -13,6 +13,8 @@
 		6C430D512061185700B6D2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C430D502061185700B6D2E2 /* Assets.xcassets */; };
 		6C430D542061185700B6D2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C430D522061185700B6D2E2 /* LaunchScreen.storyboard */; };
 		6C430D572061185700B6D2E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C430D562061185700B6D2E2 /* main.m */; };
+		6C430D5F2061188C00B6D2E2 /* MyJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C430D5E2061188C00B6D2E2 /* MyJSObject.m */; };
+		6C430D612061199700B6D2E2 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C430D602061199700B6D2E2 /* 1.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		6C430D532061185700B6D2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C430D552061185700B6D2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C430D562061185700B6D2E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C430D5D2061188C00B6D2E2 /* MyJSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyJSObject.h; sourceTree = "<group>"; };
+		6C430D5E2061188C00B6D2E2 /* MyJSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyJSObject.m; sourceTree = "<group>"; };
+		6C430D602061199700B6D2E2 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +63,11 @@
 		6C430D462061185700B6D2E2 /* JavascriptCoreTest */ = {
 			isa = PBXGroup;
 			children = (
+				6C430D602061199700B6D2E2 /* 1.html */,
 				6C430D472061185700B6D2E2 /* AppDelegate.h */,
 				6C430D482061185700B6D2E2 /* AppDelegate.m */,
+				6C430D5D2061188C00B6D2E2 /* MyJSObject.h */,
+				6C430D5E2061188C00B6D2E2 /* MyJSObject.m */,
 				6C430D4A2061185700B6D2E2 /* ViewController.h */,
 				6C430D4B2061185700B6D2E2 /* ViewController.m */,
 				6C430D4D2061185700B6D2E2 /* Main.storyboard */,
@@ -131,6 +139,7 @@
 			files = (
 				6C430D542061185700B6D2E2 /* LaunchScreen.storyboard in Resources */,
 				6C430D512061185700B6D2E2 /* Assets.xcassets in Resources */,
+				6C430D612061199700B6D2E2 /* 1.html in Resources */,
 				6C430D4F2061185700B6D2E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C430D5F2061188C00B6D2E2 /* MyJSObject.m in Sources */,
 				6C430D4C2061185700B6D2E2 /* ViewController.m in Sources */,
 				6C430D572061185700B6D2E2 /* main.m in Sources */,
 				6C430D492061185700B6D2E2 /* AppDelegate.m in Sources */,
